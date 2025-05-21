@@ -1,0 +1,12 @@
+.vs
+.ccls-cache
+**/*.vcxproj.user
+**/*.vcxproj.filters
+**/build
+**/temp
+**/x64/
+**/[Rr]elease/
+**/[Dd]ebug/
+**/*.exe
+**/*.pdb
+**/*.obj
