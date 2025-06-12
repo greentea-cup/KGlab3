@@ -141,8 +141,19 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyOGL.cpp" />
     <ClCompile Include="Render.cpp" />
+    <ClCompile Include="lab2.cpp" />
+    <ClCompile Include="lab3.cpp" />
+    <ClCompile Include="lab3tr.cpp" />
+    <ClCompile Include="Curves.cpp" />
+	<ClCompile Include="vec.cpp" />
+	<ClCompile Include="stb_image_impl.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="vec.h" />
+    <ClCompile Include="Curves.h" />
+    <ClCompile Include="lab2.h" />
+    <ClCompile Include="lab3.h" />
+    <ClCompile Include="lab3tr.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Event.h" />
     <ClInclude Include="GUItextRectangle.h" />

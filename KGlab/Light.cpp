@@ -148,13 +148,13 @@ void Light::SetUpLight()
 	// массивы с параметрами источника света
 	// характеристики излучаемого света
 	// фоновое освещение (рассеянный свет)
-	GLfloat lamb[] = { 0.2, 0.2, 0.2, 0 };
+	GLfloat lamb[] = { 0.2f, 0.2f, 0.2f, 0.0f };
 	// диффузная составляющая света
-	GLfloat ldif[] = { 0.7, 0.7, 0.7, 0 };
+	GLfloat ldif[] = { 0.7f, 0.7f, 0.7f, 0.0f };
 	// зеркально отражаемая составляющая света
-	GLfloat lspec[] = { 1.0, 1.0, 1.0, 0 };
+	GLfloat lspec[] = { 1.0f, 1.0f, 1.0f, 0.0f };
 	//координаты
-	GLfloat lposition[] = { posX, posY, posZ, 1. };
+	GLfloat lposition[] = { (GLfloat)posX, (GLfloat)posY, (GLfloat)posZ, 1.f };
 
 	//сообщаем эти значения openGL.
 	glLightfv(GL_LIGHT0, GL_POSITION, lposition);

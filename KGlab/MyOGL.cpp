@@ -150,10 +150,10 @@ void message_cycle()
 					gl.mouseMup((short)LOWORD(m.lParam), (short)HIWORD(m.lParam));
 					break;
 				case WM_KEYUP:
-					gl.keyUp(m.wParam);
+					gl.keyUp((int)(m.wParam));
 					break;
 				case WM_KEYDOWN:
-					gl.keyDown(m.wParam);
+					gl.keyDown((int)(m.wParam));
 					break;
 				case WM_CLOSE:
 					//b_render = false;
